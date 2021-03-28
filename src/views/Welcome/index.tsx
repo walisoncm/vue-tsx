@@ -48,7 +48,7 @@ export class Welcome extends Vue {
 
   async pinpointOnMaps (): Promise<void> {
     window._VMA.$emit('SHOW_SNACKBAR', {
-      text: 'Not Implemented Yet',
+      text: 'Ainda não implementado',
       color: 'error'
     })
   }
