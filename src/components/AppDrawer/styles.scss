@@ -1,0 +1,13 @@
+.app-drawer {
+  overflow: hidden !important;
+  box-shadow: 1px 0px 3px black;
+
+  &__inner {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .drawer-menu--scroll {
+    overflow: auto;
+  }
+}
